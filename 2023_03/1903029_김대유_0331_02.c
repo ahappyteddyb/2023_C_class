@@ -2,45 +2,45 @@
 
 int main (void)
 {
-//°øÇÐ°è»ê¿¡ ÀÚÁÖ »ç¿ëÇÏ´Â piÀÇ °ªÀ» ÀúÀåÇÏ°í½Í´Ù.
-//º¯¼ö¸¦ ¼±¾ðÇÏ°í piÀÇ °ªÀ» ¹èÁ¤ÇÏ½Ã¿À.
+//ê³µí•™ê³„ì‚°ì— ìžì£¼ ì‚¬ìš©í•˜ëŠ” piì˜ ê°’ì„ ì €ìž¥í•˜ê³ ì‹¶ë‹¤.
+//ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  piì˜ ê°’ì„ ë°°ì •í•˜ì‹œì˜¤.
 	float pi;
 		pi = 3.14;
 		
-//piÀÇ °ªÀ» È­¸é¿¡ Ãâ·ÂÇÏ½Ã¿À 
+//piì˜ ê°’ì„ í™”ë©´ì— ì¶œë ¥í•˜ì‹œì˜¤ 
 	printf("pi = %f\n",pi);
 
-//pi¿¡ 3.33À» ´õÇÏ°í È­¸é¿¡ Ãâ·Â
+//piì— 3.33ì„ ë”í•˜ê³  í™”ë©´ì— ì¶œë ¥
 	printf("pi + 3.33 = %f\n",pi + 3.33) ;
 	//or "pi = pi + 3.33;
-	//sprintf("pi + 3.33 = %f\n",pi) ;" µµ °¡´É ±Ùµ¥ ÀÌ·¯¸é °ªÀ» µ¤¾î¾º¿ò ¸ô?·ç??? 
+	//sprintf("pi + 3.33 = %f\n",pi) ;" ë„ ê°€ëŠ¥ ê·¼ë° ì´ëŸ¬ë©´ ê°’ì„ ë®ì–´ì”Œì›€ ëª°?ë£¨??? 
 	
-//¾ËÆÄºªÀÇ Ã¹ ±ÛÀÚ¸¦ ¹èÁ¤ÇÏ°í ½Í´Ù.
-//º¯¼ö¸¦ ¼±¾ðÇÏ°í ¹èÁ¤ÇÏ½Ã¿À.
+//ì•ŒíŒŒë²³ì˜ ì²« ê¸€ìžë¥¼ ë°°ì •í•˜ê³  ì‹¶ë‹¤.
+//ë³€ìˆ˜ë¥¼ ì„ ì–¸í•˜ê³  ë°°ì •í•˜ì‹œì˜¤.
 	char first;
 		first = 'a';
 	 
-//³ª´Â ¹®ÀÚ 1À» number_x ¶ó´Â º¯¼ö¿¡ ¹èÁ¤ÇÏ°í½Í´Ù.
+//ë‚˜ëŠ” ë¬¸ìž 1ì„ number_x ë¼ëŠ” ë³€ìˆ˜ì— ë°°ì •í•˜ê³ ì‹¶ë‹¤.
 	char number_x;
 	   number_x = '1';
 	   
-//number_x¿¡ ¹èÁ¤µÈ°ªÀ» number_y¿¡ ¹èÁ¤ÇÏ°í½Í´Ù.    
+//number_xì— ë°°ì •ëœê°’ì„ number_yì— ë°°ì •í•˜ê³ ì‹¶ë‹¤.    
 	char number_y;
 	   number_y = number_x;
 
-//À§¿¡¼­ pi ¸¦ ¼±¾ðÇÏ°í ¹èÁ¤Çß°í, pi_plus º¯¼ö ¼±¾ð, pi ¿¡ 1À» ´õÇÑ °ªÀ» ¹èÁ¤.
-	 	//Âü°í: 1°ú 1.0Àº ¸Þ¸ð¸®ÀÇ Å©±â°¡ ´Ù¸§. 
+//ìœ„ì—ì„œ pi ë¥¼ ì„ ì–¸í•˜ê³  ë°°ì •í–ˆê³ , pi_plus ë³€ìˆ˜ ì„ ì–¸, pi ì— 1ì„ ë”í•œ ê°’ì„ ë°°ì •.
+	 	//ì°¸ê³ : 1ê³¼ 1.0ì€ ë©”ëª¨ë¦¬ì˜ í¬ê¸°ê°€ ë‹¤ë¦„. 
 	float pi_plus;
 		pi_plus = pi+1.0;
 
-//smallcomma¶ó´Â ¹®ÀÚ¸¦ ¼±¾ðÇÏ°í,  '¸¦ ¹èÁ¤ÇÏ¶ó. 
+//smallcommaë¼ëŠ” ë¬¸ìžë¥¼ ì„ ì–¸í•˜ê³ ,  'ë¥¼ ë°°ì •í•˜ë¼. 
  	char smallcomma;
 		smallcomma = ' \' ';
 	
-//s_nÀ» Ãâ·ÂÇÏ½Ã¿À. Ãâ·ÂÀº "´ç½ÅÀÇ ÇÐ¹øÀº s_n" ÀÔ´Ï´Ù \n
+//s_nì„ ì¶œë ¥í•˜ì‹œì˜¤. ì¶œë ¥ì€ "ë‹¹ì‹ ì˜ í•™ë²ˆì€ s_n" ìž…ë‹ˆë‹¤ \n
 	int s_n;	//s_n(student_number)
 		s_n = 1903029;
-			printf("´ç½ÅÀÇ ÇÐ¹øÀº \"%d\" ÀÔ´Ï´Ù.\n",s_n);
+			printf("ë‹¹ì‹ ì˜ í•™ë²ˆì€ \"%d\" ìž…ë‹ˆë‹¤.\n",s_n);
 		
 return 0; 
 }
