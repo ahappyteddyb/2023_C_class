@@ -71,7 +71,62 @@ int main (void)
 	}
 
 		printf ("당신의 점수는 %c%c 입니다.",grade,grade2);
+		
 	// else if 대신 if(score <= 89 && score >=85)를 사용해야 정석인 방법이다. 
-	
+
+	// if (score>100)
+	// {
+	// 	printf ("점수를 잘못 입력 했습니다. 다시 입력 하세요.", score);
+	// 	printf ("점수를 입력 하세요 : ");
+	// 		scanf ("%d", &score);
+	// }
+	//
+	// if(score <= 95 && score >=100)
+	// {
+	// 	grade = 'A';
+	// 	grade2 = '+';
+	//  }
+	//
+	// 	if(score <= 90 && score >=94)
+	// 	{
+	// 		grade = 'A';
+	// 		grade2 = '0';
+	//	 }
+	//
+	// 	if(score <= 85 && score >=89)
+	// 	{
+	// 		grade = 'B';
+	// 		grade2 = '+';
+	// 	}
+	//
+	// 	if(score <= 80 && score >=84)
+	// 	{
+	// 		grade = 'B';
+	// 		grade2 = '0';
+	// }
+	//
+	// 	if(score <= 75 && score >=79)
+	// 	{
+	// 		grade = 'C';
+	// 		grade2 = '+';
+	// }
+	//
+	// 	if(score <= 70 && score >=74)
+	// 	{
+	// 		grade = 'C';
+	// 		grade2 = '0';
+	// }
+	//
+	// 	if(score <= 60 && score >=69)
+	// 	{
+	// 		grade = 'D';
+	// }
+	//
+	// else 
+	// {
+	// grade = 'F';
+	// }	
+	// 	printf ("당신의 점수는 %c%c 입니다.",grade,grade2);
+	// 이런식으로 말이다.
 return 0;
 } 
