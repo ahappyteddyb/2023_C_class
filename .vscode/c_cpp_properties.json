@@ -9,9 +9,10 @@
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
-            ]
+            ],
+            "compilerPath": "C:/MinGW/bin/gcc.exe",
+            "intelliSenseMode": "windows-gcc-x64"
         }
     ],
     "version": 4
-    //utf-8...
 }
